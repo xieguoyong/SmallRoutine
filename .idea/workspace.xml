@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0b08b7e-0711-4c33-853c-962db13de9ce" name="Default" comment="" />
+    <list default="true" id="e0b08b7e-0711-4c33-853c-962db13de9ce" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/BatchGenerationData/batch_generate_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,32 +13,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SmallRoutine$batch_generate_data.coverage" NAME="batch_generate_data Coverage Results" MODIFIED="1541490899872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BatchGenerationData" />
     <SUITE FILE_PATH="coverage/SmallRoutine$mysql_operating.coverage" NAME="mysql_operating Coverage Results" MODIFIED="1541487444105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RelatedToSql" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="mysql_operating.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RelatedToSql/mysql_operating.py">
+      <file leaf-file-name="batch_generate_data.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BatchGenerationData/batch_generate_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-175">
-              <caret line="101" column="85" lean-forward="true" selection-start-line="101" selection-start-column="85" selection-end-line="101" selection-end-column="85" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sql.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RelatedToSql/sql.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="db_config.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RelatedToSql/db_config.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="184">
+              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -58,6 +45,8 @@
         <option value="$PROJECT_DIR$/RelatedToSql/db_config.ini" />
         <option value="$PROJECT_DIR$/RelatedToSql/sql.txt" />
         <option value="$PROJECT_DIR$/RelatedToSql/mysql_operating.py" />
+        <option value="$PROJECT_DIR$/BatchGenerationData/data.txt" />
+        <option value="$PROJECT_DIR$/BatchGenerationData/batch_generate_data.py" />
       </list>
     </option>
   </component>
@@ -95,6 +84,11 @@
             <path>
               <item name="SmallRoutine" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmallRoutine" type="462c0819:PsiDirectoryNode" />
+              <item name="BatchGenerationData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SmallRoutine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmallRoutine" type="462c0819:PsiDirectoryNode" />
               <item name="RelatedToSql" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -125,7 +119,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.batch_generate_data">
+    <configuration name="batch_generate_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SmallRoutine" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BatchGenerationData" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BatchGenerationData/batch_generate_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="mysql_operating" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SmallRoutine" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,8 +158,13 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <list>
+      <item itemvalue="Python.mysql_operating" />
+      <item itemvalue="Python.batch_generate_data" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.batch_generate_data" />
         <item itemvalue="Python.mysql_operating" />
       </list>
     </recent_temporary>
@@ -176,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541487943899</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mysql操作">
+      <created>1541488382554</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541488382554</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -187,9 +212,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2668919" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2668919" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.170229" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2221374" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -303,13 +328,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RelatedToSql/mysql_operating.py">
+    <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="101" column="85" lean-forward="true" selection-start-line="101" selection-start-column="85" selection-end-line="101" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reademe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -320,15 +349,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
+    <entry file="file://$PROJECT_DIR$/RelatedToSql/mysql_operating.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="-1081">
+          <caret line="55" column="46" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RelatedToSql/sql.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BatchGenerationData/data.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BatchGenerationData/batch_generate_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
