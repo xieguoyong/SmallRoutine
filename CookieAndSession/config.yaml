@@ -1,0 +1,18 @@
+# 测试地址
+# url: https://admin.drelephant.com
+url: https://uat-admin.dr-elephant.com
+
+# 浏览器
+# browser: ie
+# browser: firefox
+browser: chrome
+
+# 超管账号session信息
+userName: superadmin1001
+userId: C7F23885-3442-411B-BF3D-4BC910D3E674
+roleName: 3
+access_token: nKqljRXDgssnxQpFVNAM5ONrAjOTE0Agukx6fpDUZwiMkUoGYvj8OFtncns9_3I158XCNr7uRruleeyeSTM4bgUFmX7K9gSVn8PBAFb_Kz9ugr3CraN9Focr4A8tQhsDVlq_394qOF7yVr4-kY2R4xU1L2Tb6m_oDLW6yRQSYvVkkWR13Dn2qh4mevFlB7h0gnBiU_Jvu3WlfEtKSu0yc4rckYzyfPSB_LgcVWlofXIqhY7cdIBUe-Hv1D2UaUlh_xYz49VB7QG2c-PBl7H03cjxrswLS2SGaRw9-0jBRBqpGor1fh16VE_ktFqZsU0F6ttCIoUDAfnbbRrXnEpDHb1kUBN7cv-JMyrcI7lhGytzkpaWpeety3_JWTHrJp0y0TL9piPMHE5eb65-u7cOcHKsGkw44hkfQlsmVbU8CmG-cofHmOWnPtweB3Dh6iKKt72daMLvwa2-lt0j28dUWDYGhEUxadH73VwSK8WH9F3938kJ-hzwoGic9dceNgqdKzBgSrh4tu0ovNQR5ln2knAbIGCrBvoAugKGqtRHO6m1nCA7KWp6cfsCLvUwd1dpoUlnPpAc2mNfWt88XcV-3w
+
+# 百度账号cookie信息
+BAIDUID: 94249FEE3EA2F1A94770D236D424D2F9:SL=0:NR=10:FG=1
+BDUSS: MzSUExTjgwWVBnY2p1a1BTaHhIaTFCbkNvMWNKTkpUY01FOXdaSG9-T25SNU5iQVFBQUFBJCQAAAAAAAAAAAEAAACS9So30PnUr-zh4L3gvQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKe6a1unumtbN0
