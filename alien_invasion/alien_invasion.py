@@ -19,13 +19,18 @@ def run_game():
     ship = Ship(ai_settings, screen)
     # 创建一个用于存储子弹的编组
     bullets = Group()
+    # 创建一个用于存储外星人群的编组
+    aliens = Group()
+    # 创建外星人群
+    gf.create_fleet(ai_settings, screen, ship, aliens)
 
     # 开始游戏的主循环
     while True:
         gf.check_events(ai_settings, screen, ship, bullets)        # 监听按键和鼠标事件
         ship.update()       # 响应事件，根据移动标志移动飞船
-        bullets.update()        # 将为子弹编组bullets中的每一颗子弹调用bullet.update(）
-        gf.update_screen(ai_settings, screen, ship, bullets)     # 刷新屏幕
+        gf.update_bullets(bullets)      # 响应事件，更新子弹的位置，并删除已出屏幕的子弹
+        gf.update_aliens(aliens)
+        gf.update_screen(ai_settings, screen, ship, aliens, bullets)     # 刷新屏幕
 
 
 run_game()
